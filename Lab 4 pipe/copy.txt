@@ -1,0 +1,49 @@
+#Create New Simulator
+set ns [new Simulator]
+
+#Create Trace File 
+set tf [open finaltf.tr w]
+$ns trace-all $tf
+
+#Create Nam File
+set namf [open finalnf.nam w]
+$ns namtrace-all $namf
+
+#Define a 'finish' procedure
+proc finish {} {
+	global ns tf namf
+	$ns flush-trace
+	close $namf
+	close $tf          
+	exec nam finalnf.nam &
+	exit 0
+}
+
+#Creating Nodes
+
+set n1 [$ns node]
+set n2 [$ns node]
+set n3 [$ns node]
+set n4 [$ns node]
+set n5 [$ns node]
+set n6 [$ns node]
+set n7 [$ns node]
+set n8 [$ns node]
+set n9 [$ns node]
+set n10 [$ns node]
+set n11 [$ns node]
+set n12 [$ns node]
+
+
+
+#Creating Links between Nodes
+$ns duplex-link $n1 $n2 1Mb 10ms DropTail
+$ns duplex-link $n1 $n10 1Mb 10ms DropTail
+$ns duplex-link $n10 $n11 1Mb 10ms DropTail
+$ns duplex-link $n11 $n12 1Mb 10ms DropTail
+$ns duplex-link $n12 $n2 1Mb 10ms DropTail
+$ns duplex-link $n1 $n3 1Mb 10ms DropTail
+$ns duplex-link $n3 $n4 1Mb 10ms DropTail
+$ns duplex-link $n4 $n5 1Mb 10ms DropTail
+$ns duplex-link $n5 $n6 1Mb 10ms DropTail
+$ns duplex-li

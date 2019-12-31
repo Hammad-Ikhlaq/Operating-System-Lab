@@ -1,0 +1,8 @@
+exe: main.o ut.o
+	g++ main.o ut.o -o exe
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+ut.o: ut.cpp
+	g++ -c ut.cpp

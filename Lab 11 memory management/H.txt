@@ -1,0 +1,23 @@
+Ubuntu Example Content
+Ubuntu is a Linux-based operating system of Free and Open Source software. In addition to the core operating system, the Ubuntu software distribution also contains a wide range of user-oriented applications such as an office suite, image display and manipulation programs and multimedia tools for playing music and video. To illustrate these features and to help you explore your new system we have bundled a few documents and media files. Simply click on a file's icon or thumbnail to open it for viewing or editing in its default application.
+Productivity
+The productivity suite OpenOffice.org 3.2 contains word processor, spreadsheet, presentation, drawing and database applications and is installed on Ubuntu by default. To help you get started exploring the suite we have included some files in the Open Document Format, used by OpenOffice.org (and several other office suites).
+OpenOffice.org also has the ability to read and write documents in other formats such as those used by MS Word and Excel. 
+Multimedia
+Ubuntu 10.04 LTS includes the latest gstreamer infrastructure, providing smooth video and audio playback in applications like Totem and Rhythmbox.
+Music & Video & Art: The Ubuntu_Free_Culture_Showcase1 directory contains the short ogg/Vorbis file FrustrationBlues-ColinRoss.oga featuring a track by ColinRoss. The Ogg Video UbuntuIsHumanity.ogv was contributed by Andrew Higginson (music by Speedsound). All these files were released under a Creative Commons license2. 
+Speech: The LibriVox project prepares recordings of books and poetry for public domain release, from short items such as the fable included here to a range of full-length books. Please visit the LibriVox website3 to download other works.
+
+Managing example content files
+The arrow emblem in the top right corner signifies that this folder is not actually a directory in itself, but simply a link to another directory somewhere on the system. In this case the link points to the location /usr/share/example-content. You can remove the desktop link if you wish to keep your desktop tidy without removing the actual content.
+
+
+Creating a bookmark
+There are several ways you can bookmark the location of these files so that it will be easier to find them in the future. You can either just move the desktop icon over to another convenient location such as your Home directory or you can create a bookmark in the Nautilus file browser.
+
+
+Making a copy in your home directory
+If you wish to modify any of the files, you should first copy them to a location in your home directory, either individually or the whole example-content directory. You can then experiment with the files to familiarise yourself with the different applications. You will always have a clean copy available in the original location and any new user accounts that are created will also have a new link to the fresh content.
+Logos and templates
+We have included the 2 basic logos for Ubuntu and Kubuntu that you can use for designing materials and websites as well as templates for CD/DVD covers and presentation templates. Please see the trademark policy4 on the Ubuntu website. 
+

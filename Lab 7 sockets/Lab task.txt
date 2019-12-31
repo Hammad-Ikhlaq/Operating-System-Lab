@@ -1,0 +1,4 @@
+Write a client/server system where a client sends an alphanumeric string to a server (max len 100).
+The server extracts the numbers, puts them in a character array (separated by commas) and sends it
+back to the client. 
+The client should print this array on its terminal. 
